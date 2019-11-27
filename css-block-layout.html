@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    <style>   
+        body {
+           margin: 0;
+        }
+        header {
+          color: white;
+          background-color: black;
+        }
+        .p1 {
+            margin: auto;
+            width: 600px;
+        }
+        .p2 {
+            margin: 16px auto;
+            width: 600px;
+        }
+        #a1 {
+            width:600px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+           
+        }
+        div:not([id="a1"]) {
+            box-sizing: border-box;
+            width: 180px;
+            height: 40px;
+            border: 3px solid;
+            margin-bottom: 15px;
+            background-color: pink;
+            text-align:center;
+            line-height:34px;
+        }
+        div:nth-child(n+5) {
+         margin-left: 210px;
+        }
+        div:nth-child(n+9) {
+            margin-left:420px;
+
+        }
+        div:nth-child(4n+5) {
+            margin-top:-220px;
+
+        }
+        div:not([id="a1"]):hover {
+            background-color:red;
+        }
+
+        ul {
+            width:600px;
+            margin: 0 auto;
+        }
+        ul li {
+            border-bottom: 1px dotted transparent;
+           border-bottom-color: black;
+          
+            
+        }
+        ul li:last-child {
+             border-bottom: none;
+             }
+        footer {
+            text-align: center;
+            background-color: violet;
+        }
+
+
+    </style>
+    </head>
+    <body>
+        <header>
+            <p class="p1">hello world 请调整浏览器窗口大小查看效果</p>
+        </header>
+            <p class="p2">页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px</p>
+            <div id="a1">
+               <div>宽180高40（包含边框）</div>
+               <div>水平间隙30px</div>
+               <div>垂直间隙15px</div>
+               <div>边框宽度3px</div>
+               <div>产品</div>
+               <div>产品</div>
+               <div>产品</div>
+               <div>产品</div>
+               <div>产品</div>
+               <div>产品</div>
+               <div>产品</div>
+               <div>产品</div>
+            </div> 
+            <ul>
+                <li>link
+
+                </li>
+                <li>link
+
+                </li>
+                <li>link
+
+                </li>
+                <li>link
+
+                </li>
+                <li>link
+
+                </li>
+            </ul>
+            <footer>
+                @版权所有<br> 
+                本页所有布局均使用块元素
+            </footer>
+    </body>
+</html> 
