@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>邮箱格式</title>
+        <style>
+            html,body{
+                margin: 0;
+                height: 100%;
+            }
+            div {
+                height: 100%;
+                font-size: 0;
+
+            }
+            div > * {
+                display: inline-block;
+            }
+            header {
+                height: 100px;
+                width: 100%;
+                background-color: red;
+            }
+            aside, main {
+                height: calc(100% - 100px);
+            }
+            aside {
+                width: 150px;
+                background-color: lime;
+            }
+            main {
+                width: calc(100% - 150px);
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+        <header>a</header>
+        <aside>b</aside><main>c</main>
+        </div>
+
+    </body>
+</html>

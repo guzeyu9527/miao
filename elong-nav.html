@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+       <style>
+        nav{
+            background-color:#2064c8;
+            color: white;
+        }
+        div {
+            width: 600px;
+            margin: auto;
+
+        }
+        ur {
+            list-style: none;
+            
+           
+            padding: 0;
+            font-size:0;
+             
+            
+            
+            
+        }
+        
+
+        
+        li {
+            font-size: 16px;
+          display:inline-block;
+          padding: 10px;
+          border-left: 1px solid white;
+          
+        }
+        li:last-child{
+            border-right: 1px solid white; 
+        }
+        li:nth-child(3)::before {
+            content:'低价促';
+            position: absolute;
+            background-color:#FF8E00;
+            font-size:12px;
+            margin-left: 40px;
+            margin-top: -20px;
+           
+        }
+        li:nth-child(3)::after {
+            content:'';
+            position: absolute;
+           
+            border: 3px solid #FF8E00;
+            border-color: #FF8E00 transparent transparent #FF8E00 ;
+            margin-top: -4px;
+            margin-left:-20px;}
+         li:nth-child(4)::before {
+            content:'新升级';
+            position: absolute;
+            background-color:#FF8E00;
+            font-size:12px;
+            margin-left: 50px;
+            margin-top: -20px;
+            }
+            li:nth-child(4)::after {
+            content:'';
+            position: absolute;
+            border: 3px solid #FF8E00 ;
+            border-color:#FF8E00 transparent transparent #FF8E00;
+            margin-left: -45px;
+            margin-top: -4px;
+            }
+            
+
+       </style>
+            
+        
+    </head>
+    <body>
+    <nav>
+    <div>  
+      <ur>
+         <li>首页</li>
+         <li>国内酒店</li>
+         <li>海外酒店</li>
+         <li>国内·国际机票</li>
+         <li>火车票</li>
+         <li>汽车票</li>
+         <li>商旅</li>
+      </ur>
+
+    </div>
+    </nav>
+
+    </body>
+</html>    
+        
