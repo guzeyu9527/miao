@@ -13,14 +13,14 @@
   var b = Number(prompt(3))
   var c = Number(prompt(5))
   var r = (a + b) * c
-  console.log(25)
+  console.log(r)
 </script>
 <script type="aa" id="ch0103/03">
   var a = Number(prompt(1))
   var b = Number(prompt(1))
   var c = Number(prompt(3))
-  var r = (a + b) / c
-  console. log(0)
+  var r = ((a + b) - ((a + b) % c)) / c
+  console. log(r)
 </script>
 <script type="aa" id="ch0103/04">
   var a = Number(prompt(10))
@@ -70,14 +70,14 @@
 <script type="aa" id="ch0103/10">
   var a = Number(prompt(1))
   var b = Number(prompt(2))
-  var r = 1 / (1 / a *  + 1 / b * 2)
+  var r = 1 / (1 / a + 1 / b)
   var r = r. toFixed(2)
   console.log(r)
   </script>
 <script type="aa" id="ch0103/11">
   var a = Number(prompt(73.263))
   var b = Number(prompt(0.9973))
-  var c = a / b
+  var c = a / b 
   var r = a - c * b
   var r = r. toFixed(4)
   console.log(r)
@@ -90,27 +90,73 @@
   console.log(r)
    </script>
 <script type="aa" id="ch0103/13">
-  var a = Number()
+  var a = Number(prompt())
   var b = a / 0
   var c = a / b % b
   console.log(c, b, a)
   </script>
 <script type="aa" id="ch0103/14">
-  var a = Number()
-  var b = Number()
-  var p = Number(3.14)
+  var a = Number(prompt())
+  var b = Number(prompt())
+  var p = Number(prompt(3.14))
   var c = b * b * p * a
-  var r = 20000 / c
+  var r = Math.ceil(20000 / c)
   console.log(r)
   </script>
-<script xtype="aa" id="ch0103/15">
-  var a = Number()
-  var b = Number()
-  var c = Number()
-  var d = c % b
-  var d 
-  var r = a - c / b</script>
+<script type="aa" id="ch0103/15">
+  var a = Number(prompt())
+  var b = Number(prompt())
+  var c = Number(prompt())
+  var r = a - (Math.ceil(c / b))
+  console. log(r)
+</script>
+<script type="aa" id="ch0103/16">
+  var xa = Number(prompt())
+  var ya = Number(prompt())
+  var xb = Number(prompt())
+  var yb = Number(prompt())
+  10000  > xa && ya && xb && yb
+  var c  = (Math.pow((xa - xb),2)) + (Math.pow((ya - yb),2))
+  var r  = Math.sqrt(c)
+  console. log(r)
+  </script>
+<script type="aa" id="ch0103/17">
+  var xa = Number(prompt())
+  var ya = Number(prompt())
+  var xb = Number(prompt())
+  var yb = Number(prompt())
+  var xc = Number(prompt())
+  var yc = Number(prompt())
+  var a  = Math.sqrt((Math.pow((xa - xb),2)) + (Math.pow((ya - yb),2)))
+  var b  = Math.sqrt((Math.pow((xa - xc),2)) + (Math.pow((ya - yc),2)))
+  var c  = Math.sqrt((Math.pow((xb - xc),2)) + (Math.pow((yb - yc),2)))
+  var p  = (a + b + c) /2
+  var r  = Math.sqrt(p *(p - a) * (p - b) * (p - c))
+  console. log(r)
+  </script>
+<script type="aa" id="ch0103/18">
+  var a = Number(prompt())
+  var b = Number(prompt())
+  var n = Number(prompt())
+  var r = (b - a) * (n - 1) + a
+  console. log(r)
+   </script>
+<script type="aa" id="ch1013/19">
+  var a = Number(prompt())
+  var b = Number(prompt())
+  1    <= a && b <= 50000
+  var r = a * b
+  console. log(r)
+  </script>
+<script xtype="aa" id="ch1013/20">
+  var a = Number(prompt())
+  0    <= a < 31
+  var r = Math.pow(2, a)
+  console. log(r)
+  </script>
+  
 </body>
+
 </html>
 
 
