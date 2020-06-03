@@ -6,14 +6,17 @@ var guzeyu9527 = {
         return false
       }
   }
-},
-var foo ={
-    chunk: function(arr, size = 1) {
-        var x =TrieBurger.compact(arr)
-        var x = this.compact(arr)
-    },
-
-    compact: function(arr) {
-        
-    }
 }
+
+/**
+ * 将数组分成多组，每组有size个元素
+ * 
+ * @param ary {array} 需要拆分的数组
+ * @param size {Number} 拆分的大小
+ * @param {Array[][]}
+ */
+chunk: function(ary, size = 1) {
+
+}
+
+compact:function(ary, )
